@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(daily_leetcode)
+project(dailyLeetcode)
 
-add_executable(leetcode main.cpp)
+add_executable(Leetcode main.cpp)
+
+add_subdirectory(Google_tests)
